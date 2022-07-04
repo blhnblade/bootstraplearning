@@ -51,16 +51,107 @@ header, footer{
     max-width: 200px;
     margin: 0 auto;
     padding: 8px 30px;
-    box-shadow: 0px 5px 3px 0px #28292b;
+    box-shadow: 0px 5px 3px #28292b;
     background-color: var(--color1);
-    transition:box-shadow 0.3s ease, color 0.3s ease;
+    color: white;
+    transition:box-shadow 0.3s ease, color 0.1s ease;
 }
 
 .btn-itd:hover{
-    color: white;
-    box-shadow: 0px 3px 1px 0px #28292b;
+    color: #daf7dd;
+    box-shadow: 0px 3px 2px #19291b;
 }
 
 
 .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; }
 .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+
+
+
+
+/*О курсе*/
+
+.about,shedule{
+    background-color: #eee;
+}
+
+.about i{
+    font-size:25px;
+    color: var(--color1);
+}
+
+.itd_circle{
+    margin: 10px auto 20px;
+    width:70px;
+    height: 70px;
+    border: 3px solid var(--color1);
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 7px;
+}
+
+.line {
+    width: 90px;
+    height: 3px;
+    background-color: var(--color1);
+    margin: 15px auto 30px;
+
+}
+
+/*Курс для тех, кто*/
+.forwhom, .learning{
+    background-color: var(--color2);
+}
+.forwhom h5{
+    padding:50px;
+    border:3px solid var(--color1);
+    background-color: #eee;
+}
+
+
+/*Аккардион*/
+.accordion-button:not(.collapsed){
+    color: var(--color1);
+    background: var(--color2);
+}
+
+.accordion-button:not(.collapsed)::after{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='gray'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+
+/*ПРОЦЕСС ОБУЧЕНИЯ*/
+.learning h5{
+    padding:35px;
+    border: 7px solid var(--color1);
+}
+
+/*Об авторе*/
+.author{
+    padding-top:50px;
+    padding-bottom: 0;
+}
+.itd_img{
+    max-width: 260px;
+}
+
+
+
+
+
+    /*Цвета*/
+.color1{
+var(--color2);
+}
+.color2{
+var(--color2);
+}
+.bg1{
+    background-color: var(--color1);
+}
+.bg2{
+    background-color: var(--color2);
+}
