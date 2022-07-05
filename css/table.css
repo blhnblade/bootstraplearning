@@ -72,8 +72,8 @@ header, footer{
 
 /*О курсе*/
 
-.about,shedule{
-    background-color: #eee;
+.about, .shedule, .author, .buy{
+    background-color: whitesmoke;
 }
 
 .about i{
@@ -102,7 +102,7 @@ header, footer{
 }
 
 /*Курс для тех, кто*/
-.forwhom, .learning{
+.forwhom, .learning, .otziv{
     background-color: var(--color2);
 }
 .forwhom h5{
@@ -123,7 +123,24 @@ header, footer{
 }
 
 
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/*Для того чтобы убрать подсветку input'a или button'а*/
+.accordion-button:focus {
+    box-shadow: 0 0 0;
+}
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+
+
+
 /*ПРОЦЕСС ОБУЧЕНИЯ*/
+.learning{
+    padding-top:90px;
+    padding-bottom:70px;
+}
 .learning h5{
     padding:35px;
     border: 7px solid var(--color1);
@@ -138,6 +155,50 @@ header, footer{
     max-width: 260px;
 }
 
+/*Отзывы*/
+.otziv{
+    padding-bottom:75px;
+}
+.otziv img{
+    border-radius:50%;
+    border: 3px solid var(--color1);
+}
+
+
+
+
+/*Buy*/
+/*
+iframe {
+
+    width: 500px;
+}
+.form form_validation_yes i-bem form_js_inited{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+*/
+
+iframe{
+    max-width:400px;
+}
+
+.pl{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.pl p{
+    text-align: center;
+}
+
+.lak{
+    text-align: center;
+}
 
 
 
